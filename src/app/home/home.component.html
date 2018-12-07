@@ -12,28 +12,25 @@
   </mdb-navbar-brand>
   <links>
     <ul class="navbar-nav">
-      <li class="nav-item active" [ngClass]="{ 'navi-active':activeTab==='about'}" (click)="activeCall('about')" 
-      data-toggle="tab">
+      <li class="nav-item active" [ngClass]="{ 'navi-active':activeTab==='about'}" (click)="activeCall('about')"
+        data-toggle="tab">
         <a class="nav-link waves-light" mdbWavesEffect>About <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='admission'}" (click)="activeCall('admission')"
-      data-toggle="tab">
+        data-toggle="tab">
         <a class="nav-link waves-light" mdbWavesEffect>Admission</a>
       </li>
-      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='result'}" (click)="activeCall('result')" 
-      data-toggle="tab">
-          <a class="nav-link waves-light" mdbWavesEffect>Result</a>
-        </li>
-      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='event'}" (click)="activeCall('event')" 
-      data-toggle="tab">
+      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='result'}" (click)="activeCall('result')" data-toggle="tab">
+        <a class="nav-link waves-light" mdbWavesEffect>Result</a>
+      </li>
+      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='event'}" (click)="activeCall('event')" data-toggle="tab">
         <a class="nav-link waves-light" mdbWavesEffect>Event</a>
       </li>
-      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='ncc'}" (click)="activeCall('ncc')" 
-      data-toggle="tab">
+      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='ncc'}" (click)="activeCall('ncc')" data-toggle="tab">
         <a class="nav-link waves-light" mdbWavesEffect>NCC</a>
       </li>
-      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='contact'}" (click)="activeCall('contact')" 
-      data-toggle="tab">
+      <li class="nav-item" [ngClass]="{ 'navi-active':activeTab==='contact'}" (click)="activeCall('contact')"
+        data-toggle="tab">
         <a class="nav-link waves-light" mdbWavesEffect>Contact US</a>
       </li>
       <li class="nav-item dropdown btn-group" dropdown>
@@ -48,7 +45,7 @@
         </div>
       </li>
     </ul>
-   
+
     <ul class="navbar-nav ml-auto nav-flex-icons">
       <!-- <li class="nav-item">
         <a class="nav-link waves-effect waves-light">
@@ -74,80 +71,100 @@
     </ul>
   </links>
 </mdb-navbar>
+<div class="card card-intro blue-gradient">
+
+  <div class="card-body card-padding white-text rgba-black-light text-center">
+
+    <!--Grid row-->
+    <div class="row d-flex justify-content-center">
+
+      <!--Grid column-->
+      <div class="col-md-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <h1 class="font-weight-bold mb-3 h2">Smt. Kamla Agarwal Public School, Hapur</h1>
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+
+</div>
 <!-- Start your project here-->
 
-  <div class="container-fluid text-center mt-lg-5 pt-3">
+<div class="container-fluid text-center">
 
-    <!-- /Start your project here-->
-    <!--Carousel Wrapper-->
-<mdb-carousel [isControls]="true" class="carousel slide carousel-fade my-4 mt-5" [animation]="'fade'">
+  <!-- /Start your project here-->
+  <!--Carousel Wrapper-->
+  <mdb-carousel [isControls]="true" class="carousel slide carousel-fade mb-4" [animation]="'fade'">
     <!--First slide-->
     <mdb-carousel-item>
-        <div class="view w-100">
-            <img class="d-block w-100" src="../../assets/img/school_img.jpg" alt="First slide">
-            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">AN ENDURING LEGACY OF EXCELLENCE IN EDUCATION</h3>
-            <h4>SINCE 2005</h4>
-        </div>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/img/school_img.jpg" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption carousel-stripe">
+        <h3 class="h3-responsive font_weight-400">AN ENDURING LEGACY OF EXCELLENCE IN EDUCATION</h3>
+        <h4>SINCE 2005</h4>
+      </div>
     </mdb-carousel-item>
     <!--/First slide-->
     <!--First slide-->
     <mdb-carousel-item>
-        <div class="view w-100">
-            <img class="d-block w-100" src="../../assets/img/school_img2.jpg" alt="First slide">
-            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">SECULAR SCHOOL FOR EXCEPTIONAL STUDENTS</h3>
-            <p>FROM ALL BACKGROUND</p>
-        </div>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/img/school_img2.jpg" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption carousel-stripe">
+        <h3 class="h3-responsive font_weight-400">SECULAR SCHOOL FOR EXCEPTIONAL STUDENTS</h3>
+        <p>FROM ALL BACKGROUND</p>
+      </div>
     </mdb-carousel-item>
     <!--/First slide-->
     <!--Second slide-->
     <mdb-carousel-item>
-        <div class="view w-100">
-            <img class="d-block w-100" src="../../assets/img/school_img3.jpg" alt="Second slide">
-            <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">SPORTS ACTIVITIES</h3>
-            <p>RELEVANT TO TODAY’S WORLD</p>
-        </div>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/img/school_img3.jpg" alt="Second slide">
+        <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption carousel-stripe">
+        <h3 class="h3-responsive font_weight-400">SPORTS ACTIVITIES</h3>
+        <p>RELEVANT TO TODAY’S WORLD</p>
+      </div>
     </mdb-carousel-item>
     <!--/Second slide-->
     <!--Third slide-->
     <mdb-carousel-item>
-        <div class="view w-100">
-            <img class="d-block w-100" src="../../assets/img/ncc_img.jpg" alt="Third slide">
-            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">NATIONAL CADET CORPS</h3>
-            <p>FOR DISCIPLINE</p>
-        </div>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/img/ncc_img.jpg" alt="Third slide">
+        <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption carousel-stripe">
+        <h3 class="h3-responsive font_weight-400">NATIONAL CADET CORPS</h3>
+        <p>FOR DISCIPLINE</p>
+      </div>
     </mdb-carousel-item>
     <!--/Third slide-->
-</mdb-carousel>
+  </mdb-carousel>
 
-<hr class="my-5">
-<section id="cards" class="text-center">
+  <hr class="my-5">
+  <section id="cards" class="text-center">
 
     <!--Section heading-->
     <p>FIND INFORMATION TO AID YOU</p>
     <h5 class="section-heading mb-5  h1 mt-0">
-        ACADEMIC INFO</h5>
-    
-<!--Collection card-->
-  <div class="row mb-5">
+      ACADEMIC INFO</h5>
+
+    <!--Collection card-->
+    <div class="row mb-5">
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4">
         <!--Collection card-->
         <div class="card collection-card z-depth-1-half">
           <!--Card image-->
           <div class="view zoom">
-            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/11/how-study-img2.jpg" class="img-fluid card-image" alt="">
+            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/11/how-study-img2.jpg" class="img-fluid card-image"
+              alt="">
             <div class="stripe dark  stripe-dark">
               <a>
                 <p>Primary Education
@@ -170,7 +187,8 @@
         <div class="card collection-card z-depth-1-half">
           <!--Card image-->
           <div class="view zoom">
-            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/12/IMG_4038-1280x700.jpg" class="img-fluid card-image" alt="">
+            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/12/IMG_4038-1280x700.jpg" class="img-fluid card-image"
+              alt="">
             <div class="stripe dark  stripe-dark">
               <a>
                 <p>Middle Education
@@ -193,7 +211,8 @@
         <div class="card collection-card z-depth-1-half">
           <!--Card image-->
           <div class="view zoom">
-            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/12/IMG_4356-968x405-968x529.jpg" class="img-fluid card-image" alt="">
+            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/12/IMG_4356-968x405-968x529.jpg" class="img-fluid card-image"
+              alt="">
             <div class="stripe dark  stripe-dark">
               <a>
                 <p>Secondary Education
@@ -216,7 +235,8 @@
         <div class="card collection-card z-depth-1-half">
           <!--Card image-->
           <div class="view zoom">
-            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/11/how-study-img1.jpg" class="img-fluid card-image" alt="">
+            <img src="http://doonvalleypublicschool.com/wp-content/uploads/2017/11/how-study-img1.jpg" class="img-fluid card-image"
+              alt="">
             <div class="stripe dark  stripe-dark">
               <a>
                 <p>Senior Secondary
@@ -233,15 +253,15 @@
       <!--Fourth column-->
 
     </div>
-  <!--/.Collection card-->
-</section>
+    <!--/.Collection card-->
+  </section>
 
-<hr class="my-5">
-<section id="cards" class="text-center">
+  <hr class="my-5">
+  <section id="cards" class="text-center">
 
     <!--Section heading-->
     <h5 class="section-heading mb-5  h1 mt-0">DISTINGUISHED OFFICE BEARERS</h5>
-  <div class="row">
+    <div class="row">
       <!--Subheading-->
       <div class="col-md-4">
 
@@ -260,9 +280,9 @@
           <div class="card-body card-body-cascade text-center">
 
             <!-- Title -->
-            <h4 class="card-title"><strong>Alison Belmont</strong></h4>
+            <h4 class="card-title">Alison Belmont</h4>
             <!-- Subtitle -->
-            <h5 class="blue-text pb-2"><strong>CHAIRMAN</strong></h5>
+            <h5 class="sub-text-color pb-2"><strong>CHAIRMAN</strong></h5>
             <!-- Text -->
             <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
               laudantium, totam rem aperiam. </p>
@@ -285,35 +305,35 @@
         <!-- Card Narrower -->
         <div class="card card-cascade wider mb-4">
 
-            <!-- Card image -->
-            <div class="view view-cascade overlay">
-              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
-              <a href="#!">
-                <div class="mask rgba-white-slight waves-effect waves-light"></div>
-              </a>
-            </div>
-  
-            <!-- Card content -->
-            <div class="card-body card-body-cascade text-center">
-  
-              <!-- Title -->
-              <h4 class="card-title"><strong>Alison Belmont</strong></h4>
-              <!-- Subtitle -->
-              <h5 class="blue-text pb-2"><strong>PRINCIPAL</strong></h5>
-              <!-- Text -->
-              <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-                laudantium, totam rem aperiam. </p>
-  
-              <!-- Linkedin -->
-              <a class="px-2 fa-lg li-ic"><i class="fa fa-linkedin"></i></a>
-              <!-- Twitter -->
-              <a class="px-2 fa-lg tw-ic"><i class="fa fa-twitter"></i></a>
-              <!-- Dribbble -->
-              <a class="px-2 fa-lg fb-ic"><i class="fa fa-facebook"></i></a>
-  
-            </div>
-  
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight waves-effect waves-light"></div>
+            </a>
           </div>
+
+          <!-- Card content -->
+          <div class="card-body card-body-cascade text-center">
+
+            <!-- Title -->
+            <h4 class="card-title">Alison Belmont</h4>
+            <!-- Subtitle -->
+            <h5 class="sub-text-color pb-2"><strong>PRINCIPAL</strong></h5>
+            <!-- Text -->
+            <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam. </p>
+
+            <!-- Linkedin -->
+            <a class="px-2 fa-lg li-ic"><i class="fa fa-linkedin"></i></a>
+            <!-- Twitter -->
+            <a class="px-2 fa-lg tw-ic"><i class="fa fa-twitter"></i></a>
+            <!-- Dribbble -->
+            <a class="px-2 fa-lg fb-ic"><i class="fa fa-facebook"></i></a>
+
+          </div>
+
+        </div>
         <!-- Card Narrower -->
 
       </div>
@@ -334,9 +354,9 @@
           <div class="card-body card-body-cascade text-center">
 
             <!-- Title -->
-            <h4 class="card-title"><strong>Billy Coleman</strong></h4>
+            <h4 class="card-title">Billy Coleman</h4>
             <!-- Subtitle -->
-            <h6 class="font-weight-bold indigo-text py-2">VICE-PRINCIPAL</h6>
+            <h6 class="font-weight-bold sub-text-color py-2">VICE-PRINCIPAL</h6>
             <!-- Text -->
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex,
               recusandae. Facere modi sunt, quod quibusdam.
@@ -356,9 +376,22 @@
 
       </div>
     </div>
+  </section>
+
+  <hr class="my-5">
+  <section class="mb-5">
+    <p>OUR CAMPUS HAVE A LOT TO OFFER FOR OUR STUDENTS</p>
+    <h5 class="section-heading mb-5  h1 mt-0">
+      TAKE A CAMPUS TOUR</h5>    
+  <div class="column has-text-centered">
+    <div class="img-row" *ngFor="let image of albums; let i=index">
+      <img class="img-frame" [src]="image.thumb" (click)="open(i)"/>
+    </div>
+  </div>
 </section>
-<!--/.Carousel Wrapper-->
-    <!-- <mdb-card cascade="true" wider="true" reverse="true" class="my-4 mt-5">
+<!-- First row -->
+  <!--/.Carousel Wrapper-->
+  <!-- <mdb-card cascade="true" wider="true" reverse="true" class="my-4 mt-5">
       <div class="view view-cascade overlay waves-light" mdbWavesEffect>
         <mdb-card-img src="../../assets/img/school_img.jpg"></mdb-card-img>
         <a>
@@ -397,6 +430,4 @@
 
     </mdb-card> -->
 
-  </div>
-
-   
+</div>

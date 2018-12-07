@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { LightboxModule } from 'ngx-lightbox';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -40,6 +40,9 @@
                 "input": "node_modules/angular-bootstrap-md/scss/mdb-free.scss"
               },
               {
+                "input": "node_modules/ngx-lightbox/lightbox.css"
+              },
+              {
                 "input": "src/styles.scss"
               }
             ],
@@ -180,6 +183,9 @@
               },
               {
                 "input": "node_modules/angular-bootstrap-md/scss/mdb-free.scss"
+              },
+              {
+                "input": "node_modules/ngx-lightbox/lightbox.css"
               },
               {
                 "input": "src/styles.scss"
